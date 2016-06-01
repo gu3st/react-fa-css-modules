@@ -58,7 +58,7 @@ class Icon extends React.Component {
     if (className) {
       classNames = `${classNames} ${className}`;
     }
-    debugger;
+    
     return <Component {...props} styleName={classNames} />;
   }
 }
