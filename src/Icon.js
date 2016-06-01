@@ -3,8 +3,10 @@
  */
 
 import React, {PropTypes} from 'react';
+import styles from 'font-awesome/css/font-awesome.css';
+import CSSModules from 'react-css-modules';
 
-export default class Icon extends React.Component {
+class Icon extends React.Component {
 
   static propTypes = {
     name: PropTypes.string.isRequired,
@@ -60,6 +62,10 @@ export default class Icon extends React.Component {
     if (className) {
       classNames = `${classNames} ${className}`;
     }
-    return <Component {...props} className={classNames} />;
+    return <Component {...props} styleName={classNames} />;
   }
 }
+
+Icon = CSSModules(Icon,styles,{allowMultiple: true});
+
+export default Icon;

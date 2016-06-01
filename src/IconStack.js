@@ -3,8 +3,10 @@
  */
 
 import React, {PropTypes} from 'react';
+import styles from 'font-awesome/css/font-awesome.css';
+import CSSModules from 'react-css-modules';
 
-export default class IconStack extends React.Component {
+class IconStack extends React.Component {
 
   static propTypes = {
     className: PropTypes.string,
@@ -33,9 +35,13 @@ export default class IconStack extends React.Component {
     const iconStackClassName = classNames.join(' ');
 
     return (
-      <span {...props} className={iconStackClassName}>
+      <span {...props} styleName={iconStackClassName}>
         {children}
       </span>
     );
   }
 }
+
+IconStack = CSSModules(IconStack, styles, {allowMultiple: true});
+
+export default IconStack;
