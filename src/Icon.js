@@ -1,7 +1,3 @@
-/**
- * @copyright 2015, Andrey Popp <8mayday@gmail.com>
- */
-
 import React, {PropTypes} from 'react';
 import styles from 'font-awesome/css/font-awesome.css';
 import CSSModules from 'react-css-modules';
@@ -62,6 +58,7 @@ class Icon extends React.Component {
     if (className) {
       classNames = `${classNames} ${className}`;
     }
+    debugger;
     return <Component {...props} styleName={classNames} />;
   }
 }

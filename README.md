@@ -1,5 +1,7 @@
 # Font Awesome icons as React components
 
+# I NEED TO FIX THIS STILL
+
 ## Installation
 
 React Font Awesome is distributed via [npm][]:
