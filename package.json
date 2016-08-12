@@ -1,11 +1,11 @@
 {
   "name": "react-fa-css-modules",
-  "version": "4.1.4",
+  "version": "4.1.5",
   "description": "Font Awesome icons as React components",
   "main": "lib/index.js",
   "dependencies": {
     "font-awesome": "^4.3.0",
-    "react-css-modules": "^3.7.6"
+    "react-css-modules-theme": "^3.8.9"
   },
   "peerDependencies": {
     "react": ">= 0.13.0 <16.0.0"
