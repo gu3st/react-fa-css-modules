@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react';
 import styles from 'font-awesome/css/font-awesome.css';
-import CSSModules from 'react-css-modules';
+import CSSModules from 'react-css-modules-theme';
 
 class Icon extends React.Component {
 

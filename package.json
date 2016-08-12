@@ -1,6 +1,6 @@
 {
   "name": "react-fa-css-modules",
-  "version": "4.1.5",
+  "version": "4.1.6",
   "description": "Font Awesome icons as React components",
   "main": "lib/index.js",
   "dependencies": {
